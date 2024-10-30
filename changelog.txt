@@ -1,0 +1,65 @@
+*** IP Address Approval Changelog ***
+
+== Changelog ==
+2024.06.11 - version 1.9.2
+ * Bug Fixes: Minor bug fix (loading spinner).
+2024.03.26 - version 1.9.0
+ * Changes: Added a Credentials Check. If your Credentials do not match what we have on our end, you will see a notice at the top of the Admin panel.
+ * Changes: Ready for WordPress 6.5.
+2023.10.22 - version 1.8.3
+ * Bug Fixes: Catch instances where the User Agent is not provided.
+2023.07.23 - version 1.8.2
+ * Bug Fixes: We fixed a typo, no harm done.
+ * Changes: Ready for WordPress 6.3.
+2023.03.20 - version 1.8.1
+ * Bug Fixes: We fixed a typo, no harm done.
+2023.03.19 - version 1.8.0
+ * Improved: Altered code for Saving Changes.
+ * Improved: Added changelog.txt file, improved Change Logs.
+ * Changes: Ready for WordPress 6.2.
+2022.09.29 - version 1.7.0
+ * New Features: We added a Do Not Log List. This is a way for you to exclude visits from being logged in the Visitor Log.
+2022.08.18 - version 1.6.0
+ * New Features: You can now Block Proxy, VPN or Tor visitor connections and Block Hosting or Data Center visitor connections and redirect them to their respective pages. In addition you can now Allow or Block Bots (see our instruction page for details).
+2021.11.24 - version 1.5.2
+ * Bug Fixes: When using the free version of our service, save changes was was throwing a API Response error for uneditable inputs.
+2021.11.16 - version 1.5.1
+ * Improved: When using the Search Filter the cells containing the filtered term will highlighted.
+2021.11.04 - version 1.4.5
+ * Bug Fixes: When using the Search Filter on mobile devices, the filtered results were not being hidden due to display: block !important; in the css.
+2021.07.11 - version 1.4.4
+ * Bug Fixes: When using the free version of our service, save changes was was throwing a API Response error for uneditable inputs.
+2020.10.25 - version 1.4.3
+ * Bug Fixes: When using the Search Filter on the Site Visitors log, checking the "Check All" checkboxes will now only check the boxes for the visible filtered results.
+2020.10.23 - version 1.4.2
+ * Improved: The page will now scroll up when clicking Delete, Paginate and Per Page on the Site Visitors tab.
+2020.04.22 - version 1.4.1
+ * Bug Fixes: Access Denied and Banned pages not being created after connecting account.
+2020.04.17 - version 1.4.0
+ * Bug Fixes: Link in the WP Admin to the IP Approval Settings was being duplicated.
+ * Improved: Added link on Plugins page to WordPress IP Editor Instructions.
+ * Improved: Added link in the IP Plugin page tabs to WordPress IP Editor Instructions.
+ * Improved: Added link on Plugins page to our Support.
+ * Changes: The Geo Location tab has moved to the right, and changed from the title "Geo Location" to a Globe Icon.
+ * Changes: The "Changelogs" tab title has changed to "Change Logs".
+ * Changes: The "IP Approval Credentials" tab title has changed to "Credentials".
+2020.03.10 - version 1.3.0
+ * Improved: Speed and Code Improvements. We want you, in the WordPress Admin, and your website visitors to have the quickest load times possible.
+ * New Features: A "System Info" option that can be used to see some of the Server and WordPress Environment. It is here if you would ever need it.
+ * New Features: Using CTRL+s keys on a Windows computer (or Command+S on Mac) will Save your changes.
+ * Bug Fixes: Site Visitors Log "Per Page" feature not allowing the option for "20" to be selected.
+2020.08.05 - version 1.2.3
+ * Bug Fixes:  Actually Fixed the ver X.X.X in the upper right corner of the plugins General Settings tab was not being updated.
+2020.03.08 - version 1.2.2
+ * Bug Fixes: The ver X.X.X in the upper right corner of the plugins General Settings tab was not being updated.
+ * Bug Fixes: Sections accordion feature not resetting.
+2020.03.08 - version 1.2.1
+ * Bug Fixes: Uncaught Error: Call to undefined function ip_approval_get_ip().
+2020.03.07 - version 1.2.0
+ * New Features: You can now toggle the WORDPRESS SITE SETTINGS and IP APPROVAL SETTINGS sections open and closed.
+ * Improved: Added language support to the Plugin.
+ * Changes: The IP Approval Credentials tab has been moved to the end.
+2020.02.04 - version 1.1.0
+ * Changes: The 'Restrict Access on the Admin Login Page' checkbox will now only allow visitors listed in the 'Allowed' (Remain Open for) list.
+2020.01.24 - version 1.0
+ * Changes: Released the IP Approval Plugin
